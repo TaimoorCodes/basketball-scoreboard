@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "Cursed Timer ULiL";
+  src: url("CursedTimerULiL.eot?") format("eot"), url("CursedTimerULiL.woff") format("woff"), url("CursedTimerULiL.ttf") format("truetype"), url("CursedTimerULiL.svg#CursedTimerULiL") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  background: #1B244A;
+  font-family: "Cursed Timer ULiL";
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.title {
+  text-align: center;
+  color: #EEEEEE;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 36px;
+  height: 100px;
+}
+
+.title-el {
+  margin-left: 5px;
+}
+
+.score-background {
+  font-size: 90px;
+  padding: 8px;
+  display: flex;
+  justify-content: space-around;
+  width: 155px;
+  height: 120px;
+  border: 1px solid black;
+  color: #F94F6D;
+  background-size: cover;
+}
+
+#home-score, #away-score{
+  margin:5px;
+}
+#countdown-time{
+  margin: 0 auto;
+  font-size: larger;
+}
+/* Spacer used to align outer divs */
+.spacer {
+  width: 100px;
+}
+
+/* Timmer */
+#timer-btn,
+#timer-btn:hover {
+  cursor: pointer;
+  text-align: center;
+  padding: 8px;
+  margin: 45px 0 0 30px;
+  color: #EEEEEE;
+  font-size: xx-large;
+  border: 2px solid green;
+}
+
+#countdown-background {
+  margin: auto 0;
+  font-size: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 120px;
+  height: 60px;
+  color: #F94F6D;
+}
+
+/* Buttons */
+.points-container {
+  display: flex;
+  width: 155px;
+  height: 45px;
+  justify-content: space-between;
+  margin: 20px 0 0 0;
+}
+
+button,
+button:hover {
+  cursor: pointer;
+  width: 45px;
+  background: #1B244A;
+  border: 2px solid #9AABD8;
+  color: #9AABD8;
+  border-radius: 6px
+}
+
+#away-foul,
+#home-foul {
+  color: #F94F6D;
+  font-size: small;
+}
+
+#newGame {
+  width: 80px;
+  margin: 20px;
+  padding: 10px;
+}

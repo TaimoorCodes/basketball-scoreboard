@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+  <title>Basketball Scoreboard</title>
+</head>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+<body>
+    <!-- Home and Guest titles -->
+    <div class="container">
+        <div class="title">
+            <h3 class="title-el">HOME</h3>
+        </div>
+        <!-- spacer div -->
+        <h3 class="spacer" id="timer-btn"> Timer </h3>
+
+        <div class="title">
+            <h3 class="title-el">GUEST</h3>
+        </div>
+    </div>
+
+    <!-- Home and guest scores -->
+    <div class="container">
+        <div class="score-background outcome">
+            <p id="home-score">0</p>
+        </div>
+        <!-- Countdown Timer -->
+        <div id="countdown-background">
+            <p id="countdown-time">10:00</p>
+        </div>
+
+        <div class="score-background outcome">
+            <p id="away-score">0</p>
+        </div>
+    </div>
+
+    <!-- Points buttons -->
+    <div class="container">
+        <div class="points-container">
+            <button id="home-score1">+1</button>
+            <button id="home-score2">+2</button>
+            <button id="home-score3">+3</button>
+        </div>
+        <div class="spacer"></div>
+        <div class="points-container">
+            <button id="away-score1">+1</button>
+            <button id="away-score2">+2</button>
+            <button id="away-score3">+3</button>
+        </div>
+    </div>
+
+    <!-- Foul buttons -->
+    <div class="container">
+        <div class="points-container">
+            <button id="home-foul1">⬆️</button>
+            <button id="home-foul">Foul</button>
+            <button id="home-foul2">⬇️</button>
+        </div>
+        <div class="spacer"></div><!-- spacer -->
+        <div class="points-container">
+            <button id="away-foul1">⬆️</button>
+            <button id="away-foul">Foul</button>
+            <button id="away-foul2">⬇️</button>
+        </div>
+    </div>
+
+    <!--New Game  -->
+    <div class="container">
+        <button id="newGame">NEW GAME</button>
+    </div>
+    <script src="index.js"></script>
+    <!-- <script src="index.pack.js"></script> -->
+</body>
+</html>
